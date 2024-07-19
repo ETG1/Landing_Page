@@ -3,7 +3,6 @@ body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #333;
 }
 
 /* General body styles */
@@ -11,6 +10,8 @@ body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
+    margin: 0;
+    padding: 0;
 }
 
 /* Header styles */
@@ -23,6 +24,17 @@ header {
 .cover-image {
     width: 100%;
     height: auto;
+    display: block;
+}
+
+/* Positioning content within the header */
+#intro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
 }
 
 header h1 {
@@ -32,6 +44,7 @@ header h1 {
 
 header p {
     font-size: 1.2em;
+    margin: 0.5em 0;
 }
 
 .cta-button {
@@ -55,6 +68,7 @@ nav ul {
     background: #333;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 nav ul li {
