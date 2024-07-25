@@ -21,4 +21,14 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
     });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuToggle = document.querySelector('.menu-toggle');
+        const header = document.querySelector('.navber');
+    
+        menuToggle.addEventListener('click', function () {
+            header.classList.toggle('active');
+        });
+    });    
 });
+
