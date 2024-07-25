@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Portfolio Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Maze Portfolio Project</a>
+        <nav class="navbar">
+            <a href="#home" class="hover-underline">Home</a>
+            <a href="#features" class="hover-underline">Features</a>
+            <a href="#about" class="hover-underline">About</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3><span>The Maze Portfolio</span> Project</h3>
+            <p>Experience 3D maze navigation with SDL2 raycasting technology.</p>
+            <a href="#" class="btn">
+                <span class="text text-1">Learn more</span>
+                <span class="text text-2" aria-hidden="true">Open Maze</span>
+            </a>
+        </div>
+        <div class="media-icons">
+            <a href="#"><i class='bx bxl-github'></i></a>
+        </div>
+    </section>
+
+    <section class="features" id="features">
+        <h2 class="heading">Features</h2>
+        <div class="feature-item">
+            <img src="img/ft.png" alt="Feature 1">
+            <div>
+                <h3>Dynamic Floor and Ceiling Rendering</h3>
+                <p>This feature renders the floor and ceiling dynamically, creating a 3D effect. The code calculates the perspective distortion to make the floor and ceiling appear as if they extend into the distance, enhancing the immersive experience. This is achieved by casting rays and determining the correct textures for each pixel row, making the environment appear more realistic.</p>
+            </div>
+        </div>
+        <div class="feature-item">
+            <img src="img/ft1.png" alt="Feature 2">
+            <div>
+                <h3>Real-Time Mini-Map with Player Position</h3>
+                <p>The mini-map provides a top-down view of the entire maze, displaying walls and floors. It also shows the player's current position and direction. This helps players navigate the maze more effectively, providing a clear reference of their location within the game world. The mini-map updates in real-time as the player moves, ensuring accurate and useful navigation assistance.</p>
+            </div>
+        </div>
+        <div class="feature-item">
+            <img src="img/ft2.png" alt="Feature 3">
+            <div>
+                <h3>Real-Time FPS Display</h3>
+                <p>The FPS (Frames Per Second) counter is displayed on the screen to provide real-time performance metrics. This helps in monitoring the game's performance, ensuring it runs smoothly. The FPS counter updates every second, reflecting the current frame rate and allowing developers and players to assess the game's rendering efficiency.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h2 class="heading">About</h2>
+        <p>
+            The Maze Portfolio Project was inspired by the challenge of creating an engaging and interactive 3D maze navigation experience using SDL2 raycasting technology. This project started as a Portfolio Project for Holberton School.
+        </p>
+        <h2>The Team</h2>
+        <div class="team">
+            <div class="team-member">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="img/reeper.jpg" alt="Reeper">
+                        <h3>Reeper</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Reeper is a dedicated developer with a passion for innovative solutions.</p>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a> <a href="#"><i class='bx bxl-github' ></i></a> <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-member">
+                <div class="card">
+                    <div class="card-front">
+                        <img src="img/eli.jpg" alt="Eli The Great">
+                        <h3>Eli The Great</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>Eli brings creativity and technical expertise to the team.</p>
+                        <a href="#"><i class='bx bxl-linkedin'></i></a> <a href="#"><i class='bx bxl-github' ></i></a> <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>Check out our project on Github <a href="#home"><i class='bx bxl-github' ></i></a></p>
+        <p>Copyright &copy; 2022 Maze Portfolio Project</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
